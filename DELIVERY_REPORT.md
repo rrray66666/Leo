@@ -78,7 +78,8 @@
 - **6 components**: StageTag, CustomerCard, AlertBadge, NotificationBell, GlobalSearch, AppLayout
 - **3 Pinia stores**: user, customer, notification
 
-### Backend (FastAPI + SQLAlchemy)
+### Backend (FastAPI + SQLAlchemy ORM + MySQL 8.0)
+> **Database: MySQL 8.0 only** (driver `pymysql`, no PostgreSQL). SQLAlchemy is used purely as the ORM layer on top of MySQL — see `backend/.env.example` (`DATABASE_URL=mysql+pymysql://...`).
 - **15 API modules**: auth, customers, contracts, tasks, documents, communications, payments, board, dashboard, users, notifications, follow_ups, audit_logs, dicts, search
 - **12 database models**: User, Customer, Contract, Task, Document, Communication, Payment, Notification, FollowUp, AuditLog, StageHistory, DictItem
 - **5 service modules**: StageService, BoardService, CustomerService, SchedulerService, etc.

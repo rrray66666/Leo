@@ -1,6 +1,17 @@
 # CRM 系统交付检查清单（发送前必看）
 
 > 本文件用于交付前逐项核对。打勾确认后即可发送给公司。
+> **当前交付方式：GitHub 私有仓库托管**（代码、文档、部署配置全部入库；`.env` / `.venv` / `node_modules` / 压缩包不入库）。
+
+---
+
+## 〇、GitHub 仓库交付说明（公司要求）
+
+- 交付物 = GitHub 私有仓库（含 `backend/`、`frontend/`、`docs/`、`docker-compose.yml`、`db_init.sql`、`start-all.bat`、`USER_GUIDE.md` 等）。
+- 仓库**不包含**：`.env`（密钥）、`.venv`、`.nodejs`、`frontend/node_modules`、`frontend/dist`、压缩包 —— 均被 `.gitignore` 排除。
+- 对方拿到仓库后按 README「方式一 / 方式二」配置 `.env` 即可运行（模板为 `.env.example`）。
+- 云服务器部署见 `docs/DEPLOYMENT_CLOUD.md`（ECS + Docker Compose + HTTPS + 备案）。
+
 
 ---
 

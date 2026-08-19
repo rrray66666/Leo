@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+
+# Environment
+.env
+*.pdf
+pdf_output.txt
+
+# Bundled runtimes & archives (delivered separately, not committed to git)
+.nodejs/
+*.zip
+*.7z
+*.rar
+*.log
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Uploads
+backend/app/uploads/
+
+# Alembic
+backend/alembic/versions/*.pyc
+
+# OS
+.DS_Store
+Thumbs.db

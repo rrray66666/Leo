@@ -1,0 +1,80 @@
+:root {
+  /* Stage Colors */
+  --stage-1-color: #909399;
+  --stage-1-bg: #f4f4f5;
+  --stage-2-color: #409EFF;
+  --stage-2-bg: #ecf5ff;
+  --stage-3-color: #36CFC9;
+  --stage-3-bg: #e6fffb;
+  --stage-4-color: #E6A23C;
+  --stage-4-bg: #fdf6ec;
+  --stage-5-color: #722ED1;
+  --stage-5-bg: #f9f0ff;
+  --stage-6-color: #67C23A;
+  --stage-6-bg: #f0f9eb;
+  --stage-7-color: #2F54EB;
+  --stage-7-bg: #f0f5ff;
+  --stage-8-color: #389E0D;
+  --stage-8-bg: #f6ffed;
+
+  /* Alert Colors */
+  --alert-normal: #52C41A;
+  --alert-warning: #FAAD14;
+  --alert-danger: #FF4D4F;
+
+  /* Layout */
+  --sidebar-width: 220px;
+  --navbar-height: 56px;
+  --sidebar-collapsed-width: 64px;
+
+  /* Theme Colors */
+  --primary-color: #409EFF;
+  --success-color: #67C23A;
+  --warning-color: #E6A23C;
+  --danger-color: #F56C6C;
+  --info-color: #909399;
+
+  /* Background */
+  --bg-color: #f0f2f5;
+  --bg-white: #ffffff;
+  --bg-card: #ffffff;
+
+  /* Text Colors */
+  --text-primary: #303133;
+  --text-regular: #606266;
+  --text-secondary: #909399;
+  --text-placeholder: #C0C4CC;
+
+  /* Border */
+  --border-color: #dcdfe6;
+  --border-radius: 4px;
+  --border-radius-lg: 8px;
+
+  /* Shadow */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.12);
+
+  /* Transition */
+  --transition-fast: 0.2s;
+  --transition-normal: 0.3s;
+}
+
+/* Stage Color Utility Classes */
+.stage-color-1 { color: var(--stage-1-color); }
+.stage-color-2 { color: var(--stage-2-color); }
+.stage-color-3 { color: var(--stage-3-color); }
+.stage-color-4 { color: var(--stage-4-color); }
+.stage-color-5 { color: var(--stage-5-color); }
+.stage-color-6 { color: var(--stage-6-color); }
+.stage-color-7 { color: var(--stage-7-color); }
+.stage-color-8 { color: var(--stage-8-color); }
+
+.stage-bg-1 { background: var(--stage-1-bg); }
+.stage-bg-2 { background: var(--stage-2-bg); }
+.stage-bg-3 { background: var(--stage-3-bg); }
+.stage-bg-4 { background: var(--stage-4-bg); }
+.stage-bg-5 { background: var(--stage-5-bg); }
+.stage-bg-6 { background: var(--stage-6-bg); }
+.stage-bg-7 { background: var(--stage-7-bg); }
+.stage-bg-8 { background: var(--stage-8-bg); }

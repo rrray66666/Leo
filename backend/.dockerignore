@@ -1,0 +1,9 @@
+# Prevent secrets and local artifacts from being copied into the image
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+alembic/versions/*.pyc
